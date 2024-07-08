@@ -1,0 +1,22 @@
+.listBox {
+  flex-basis: 560px;
+  & > h3 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-title3);
+    line-height: var(--line-height-title3);
+
+    color: var(--color-gray-4);
+
+    margin-bottom: 1.8125rem;
+  }
+
+  p {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-title2);
+    font-weight: var(--font-weight-title2);
+    line-height: var(--line-height-title2);
+
+    color: #343A40;
+  }
+}

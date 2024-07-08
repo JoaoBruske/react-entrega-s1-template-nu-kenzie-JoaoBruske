@@ -1,0 +1,28 @@
+.totalBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border: solid 1px var(--color-gray-2);
+  border-radius: 4px;
+  h3,
+  span {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-title3);
+    line-height: var(--line-height-title3);
+  }
+  h3 {
+    color: var(--color-gray-4);
+    margin-bottom: .375rem;
+  }
+  span {
+    color: var(--color-primary);
+  }
+  p {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    line-height: var(--line-height-body);
+    color: var(--color-gray-3);
+  }
+}

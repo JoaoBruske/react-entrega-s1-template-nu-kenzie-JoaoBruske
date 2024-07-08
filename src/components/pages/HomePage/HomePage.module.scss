@@ -1,0 +1,27 @@
+.box1 {
+  display: flex;
+  justify-content: center;
+  padding: 1.0938rem;
+}
+.box2 {
+  flex-basis: 979px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  padding: 2.5rem 0;
+}
+.box3 {
+  flex-basis: 355px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+@media (max-width: 777px) {
+  .box2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
