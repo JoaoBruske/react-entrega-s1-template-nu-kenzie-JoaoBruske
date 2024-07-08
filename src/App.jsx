@@ -1,9 +1,9 @@
-import './styles/index.scss'
+import "./styles/index.scss";
 
 import { HomePage } from "./components/pages/HomePage/HomePage";
 
 function App() {
-  return <HomePage/>;
+  return <HomePage />;
 }
 
 export default App;

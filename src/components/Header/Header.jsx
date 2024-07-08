@@ -1,5 +1,5 @@
 import logo from "../../assets/logoNuKenzie.svg";
-import styles from "./Header.module.scss"
+import styles from "./Header.module.scss";
 
 export function Header() {
   return (

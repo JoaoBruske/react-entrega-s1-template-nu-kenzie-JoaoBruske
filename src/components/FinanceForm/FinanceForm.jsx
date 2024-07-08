@@ -16,8 +16,8 @@ export function FinanceForm({ financeList, setFinanceList }) {
     };
 
     setFinanceList([...financeList, newFinanceData]);
-    setDescription("")
-    setValue("")
+    setDescription("");
+    setValue("");
   }
 
   return (
