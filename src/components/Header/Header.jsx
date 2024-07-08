@@ -3,7 +3,7 @@ import styles from "./Header.module.scss"
 
 export function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <div>
         <img src={logo} alt="logo nu kenzie" />
       </div>
